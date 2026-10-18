@@ -4,6 +4,8 @@
 
 ### Changed
 
+- `work/roadmap/`：澄清意图三篇草稿整理后迁出至 `quanttide-roadmap-of-founder` 的 `work/`（`clarify-intent.md`、`clarify-intent-cli.md`、`clarify-intent-skill.md`）；命令行前缀修正为 `qtfounder work clarify`，命名统一为「澄清意图」；主仓挂载点 `data/roadmap`
+- `README.md`、`.agents/skills/journal-to-roadmap/SKILL.md`：方向层路径由 `<集>/roadmap/` 改为 `data/roadmap/<集>/`
 - `write/essay/`：三篇创作档案（创作动机 / 创作方法 / 创作困境）迁出至 `quanttide-handbook-of-founder` 的 `write/`
 - `write/history/`：三篇作品历史与设定（职场言情 / 重生言情 / 三部曲世界观）迁出至 `quanttide-history-of-founder` 的 `write/`
 - `work/laboratory/`：认知地图推理工具（cmap）迁出至 `quanttide-founder-lab` 的 `examples/cognitive-map/`
