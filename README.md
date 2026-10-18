@@ -15,12 +15,12 @@ data/context/
 │   ├── insight/        # 认知洞察（机制与规律，按证据分级）
 │   ├── intention/      # 人机协作意图（对齐层：AI 提问的澄清、摩擦处的澄清）
 │   ├── report/        # 报告（专题输出与实现状态沉淀，如 vibe-coding-methods）
-│   └── roadmap/        # 主题路线图（目标含元目标 → 核心问题 → 已/待决策）
+│   └── roadmap/        # 已迁出：方向层在 data/roadmap/（quanttide-roadmap-of-founder）
 ├── write/              # 写作主线记忆集（最早为 assets/fiction/创作谈/）
 │   ├── journal/        # 创作日志
 │   ├── profile/        # 已迁出：创作档案在 data/profile/write/（quanttide-profile-of-founder）
 │   ├── insight/        # 创作认知洞察
-│   ├── roadmap/        # 作品路线图（三部曲世界观 / 职场言情 / 重生言情）
+│   ├── roadmap/        # 已迁出：作品路线图在 data/roadmap/write/
 │   └── README.md
 ├── .agents/skills/     # Agent Skill
 ├── AGENTS.md           # Agent 工作指南
@@ -32,7 +32,7 @@ data/context/
 路线图、洞察与意图在同一记忆集内闭环；档案层允许跨集重组：
 
 ```text
-<集>/journal/（日志）→ journal-to-roadmap   → <集>/roadmap/（主题路线图）
+<集>/journal/（日志）→ journal-to-roadmap   → data/roadmap/<集>/（主题路线图）
                     → journal-to-insight   → <集>/insight/（认知洞察）
                     → journal-to-intention → <集>/intention/（意图对齐）
 
@@ -63,7 +63,7 @@ data/context/
 | 时间线 | `<集>/`（当天）、`<集>/journal/`（历史） | 原始日志，按日期记录 |
 | 特征 | `data/profile/`（已迁出本仓） | 蒸馏后的档案，按用途分 `think/`、`work/`、`write/` |
 | 认知 | `<集>/insight/` | 想通的机制与规律命题，已确认/假说分级 |
-| 方向 | `<集>/roadmap/` | 目标（含元目标）、核心问题、已/待决策 |
+| 方向 | `data/roadmap/<集>/`（已迁出本仓） | 目标（含元目标）、核心问题、已/待决策 |
 | 对齐 | `<集>/intention/` | 人机协作的意图对齐信息（目前仅 `default/`） |
 
 ## 相关文档
