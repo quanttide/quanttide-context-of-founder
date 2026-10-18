@@ -4,6 +4,7 @@
 
 ### Changed
 
+- `media/profile/肆季味.md`：迁出至 `quanttide-library-of-founder` 的 `media/`
 - `think/journal/`：2 篇日志（2026-10-17 ~ 2026-10-18）迁出至 `quanttide-journal-of-founder` 的 `think/<YYYY-MM>/`
 - `work/roadmap/`：澄清意图三篇草稿整理后迁出至 `quanttide-roadmap-of-founder` 的 `work/`（`clarify-intent.md`、`clarify-intent-cli.md`、`clarify-intent-skill.md`）；命令行前缀修正为 `qtfounder work clarify`，命名统一为「澄清意图」；主仓挂载点 `data/roadmap`
 - `README.md`、`.agents/skills/journal-to-roadmap/SKILL.md`：方向层路径由 `<集>/roadmap/` 改为 `data/roadmap/<集>/`
