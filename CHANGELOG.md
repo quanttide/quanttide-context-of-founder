@@ -4,7 +4,7 @@
 
 ### Added
 
-- `work/report/work-spec-intent.md`：两份规格背后的两种意图——定性（要管得清 vs 要做得成）与定量（同一件事八项口径对比）两段
+- `work/report/work-spec-intent.md`：迁出至报告仓的 `specification/index.md`（来源侧不留副本，`work/report/` 目录一并去掉）
 - `work/specification/syntax.md`：work 语法草案（自规格仓降级迁入）——载体与散文/块分工、顶层九字段、输入与模板渲染、前置与处置、步骤四必填三可选、四种判据、偏差表、能力清单、自检四条、最小示例。执行器落地、写法稳定后再升为正式规格
 
 ### Changed
