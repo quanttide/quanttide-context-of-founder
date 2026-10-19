@@ -5,7 +5,8 @@
 ### Added
 
 - `work/report/work-spec-intent.md`：迁出至报告仓的 `specification/index.md`（来源侧不留副本，`work/report/` 目录一并去掉）
-- `work/specification/artifact.md`：产物定义草案——四问（是什么、在哪、什么格式、多少）把隐式产物写成显式；判据挂产物不挂步骤；验法是删掉全部步骤仍能判断做成没有
+- `work/specification/artifact.md`：产物定义草案——四问（是什么、在哪、什么格式、多少）把隐式产物写成显式；本文档不写判据，合格线归契约
+- `work/specification/artifact-contract.md`：产物契约草案——约束条目四项（对象、判据、谁判、处置）、三条禁令（不许愿池、不两头写、不管名字）、人判条目不阻断流水
 - `work/specification/syntax.md`：work 语法草案（自规格仓降级迁入）——载体与散文/块分工、顶层九字段、输入与模板渲染、前置与处置、步骤四必填三可选、四种判据、偏差表、能力清单、自检四条、最小示例。执行器落地、写法稳定后再升为正式规格
 
 ### Changed
