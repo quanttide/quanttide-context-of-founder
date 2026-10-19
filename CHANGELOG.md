@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Added
+
+- `work/specification/syntax.md`：work 语法草案（自规格仓降级迁入）——载体与散文/块分工、顶层九字段、输入与模板渲染、前置与处置、步骤四必填三可选、四种判据、偏差表、能力清单、自检四条、最小示例。执行器落地、写法稳定后再升为正式规格
+
 ### Changed
 
 - `media/profile/肆季味.md`：迁出至 `quanttide-library-of-founder` 的 `media/`
