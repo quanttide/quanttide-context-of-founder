@@ -21,7 +21,7 @@
 ### Removed
 
 - `work/specification/`：删除任务蓝图、产物、产物契约三篇草案；相关讨论已成文于论文仓 `quanttide-essay-of-founder` 的 `work/`
-- `work/gallery/implement.md`：整理为案例仓的 `work/background-implementation-delegation.md`，来源侧不留副本，`work/gallery/` 目录一并去掉
+- `work/gallery/implement.md`：整理为手册仓的 `work/background-implementation-delegation.md`，来源侧不留副本，`work/gallery/` 目录一并去掉
 - `work/brochure/clarify-cli-and-skill.md`：整理为宣传册仓的 `code/clarify.md`，来源侧不留副本，`work/brochure/` 目录一并去掉
 
 ## [1.4.1] - 2026-10-13
