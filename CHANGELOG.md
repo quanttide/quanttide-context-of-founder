@@ -7,10 +7,11 @@
 - `work/report/work-spec-intent.md`：迁出至报告仓的 `specification/index.md`（来源侧不留副本，`work/report/` 目录一并去掉）
 - `work/specification/artifact.md`：产物定义草案——四问（是什么、在哪、什么格式、多少）把隐式产物写成显式；本文档不写判据，合格线归契约
 - `work/specification/artifact-contract.md`：产物契约草案——约束条目四项（对象、判据、谁判、处置）、三条禁令（不许愿池、不两头写、不管名字）、人判条目不阻断流水
-- `work/specification/syntax.md`：work 语法草案（自规格仓降级迁入）——载体与散文/块分工、顶层九字段、输入与模板渲染、前置与处置、步骤四必填三可选、四种判据、偏差表、能力清单、自检四条、最小示例。执行器落地、写法稳定后再升为正式规格
+- `work/specification/task-blueprint.md`：任务蓝图草案（由 `syntax.md` 重组，自规格仓降级迁入）——载体与散文/块分工、顶层九字段、输入与模板渲染、前置与处置、步骤四必填三可选、四种判据、偏差表、能力清单、与产物/契约的分工、自检四条、最小示例。执行器落地、写法稳定后再升为正式规格
 
 ### Changed
 
+- `work/specification/syntax.md` → `task-blueprint.md`：立论由「work 语法」重组为「任务蓝图」，`yaml work` 格式不变；同目录 `artifact.md`、`artifact-contract.md` 与主仓 `CONTRIBUTING.md` 的引用同步
 - `media/profile/肆季味.md`：迁出至 `quanttide-library-of-founder` 的 `media/`
 - `think/journal/`：2 篇日志（2026-10-17 ~ 2026-10-18）迁出至 `quanttide-journal-of-founder` 的 `think/<YYYY-MM>/`
 - `work/roadmap/`：澄清意图三篇草稿整理后迁出至 `quanttide-roadmap-of-founder` 的 `work/`（`clarify-intent.md`、`clarify-intent-cli.md`、`clarify-intent-skill.md`）；命令行前缀修正为 `qtfounder work clarify`，命名统一为「澄清意图」；主仓挂载点 `data/roadmap`
