@@ -4,7 +4,7 @@
 
 ## 迁出判定
 
-| 内容 | 去向 | 判定 |
+| 段落 | 去向 | 判定 |
 |------|------|------|
 | 滁州公司相关：公司启用、业务与市场、品牌策略、资产组织 | `roadriver-tech` 仓库 `data/journal/YYYY-MM-DD.md` | 出现滁州公司或其业务即整段算 |
 | 工作想法与洞察：系统治理、工具链、组织结构、职业定义、对 AI 观点的解读 | `quanttide-work` 仓库 `data/context/quanttide-founder/default/journal/YYYY-MM-DD.md` | 可被他人当工作参考的判断与想法 |

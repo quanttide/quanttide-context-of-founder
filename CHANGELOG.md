@@ -20,6 +20,8 @@
 
 ### Changed
 
+- **章程与手册按加粗、分割线审计结果整理**：`work/bylaw/founder-charter.md` 删掉 7 条装饰分割线、每行并排的加粗减到一处、结尾两句去掉整句加粗；`work/handbook/roadmap-maintenance-handbook.md` 删掉 5 条分割线、加粗压到每千字十处以内。两篇复查均为 0
+- **文档结构整理**：按 `qtfounder docs` 的审计结果清理——AGENTS.md 的记忆集表与目录表去掉排版表头「说明」「示例」，两张两列表改成列表，触发规则四条合成一段，两条超长规则压短；`default/README.md` 表头「内容」改「段落」；`work/handbook/roadmap-maintenance-handbook.md` 与 `work/bylaw/founder-charter.md` 的三段式列表改成散文。复查从 14 处降到 0
 - **README.md 与 CONTRIBUTING.md 重写**：README 只讲定位、目录与数据流，补上 `life/` 与 `work/` 的集内结构；CONTRIBUTING 按记日志、蒸馏、迁出、提交、输出、文档维护六节重组，移除与本仓无关的内容与重复表格
 - **AGENTS.md 与 CONTRIBUTING.md 分离**：工作原则、输出规范、Git 提交规范、Skill 维护迁入新建的 `CONTRIBUTING.md`；AGENTS.md 只留记忆集、分层边界、触发规则与 Skill 索引，并新增「相关文档」「如何维护 AGENTS.md」；README 相关文档表同步
 - `media/profile/肆季味.md`：迁出至 `quanttide-library-of-founder` 的 `media/`
