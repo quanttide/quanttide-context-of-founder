@@ -1,5 +1,5 @@
 ---
-author: agent
+author_type: agent
 status: draft
 ---
 
