@@ -13,21 +13,19 @@ data/context/
 └── work/      # 工作主线
 ```
 
-每个集都有 `README.md` 与 `journal/`。当天的日志写在集根（如 `default/2026-10-24.md`），便于手机端直接写；更早的日志平铺在 `journal/YYYY-MM-DD.md`。`default/` 另有 `insight/` 与 `intention/` 两个蒸馏层，`work/` 按文档类型分 `bylaw/`、`handbook/`、`insight/`、`roadmap/`、`tutorial/` 子目录。档案与方向层已迁出本仓，`profile/`、`roadmap/` 不再在此保留。
+每个集都有 `README.md` 与 `journal/`。当天的日志写在集根（如 `default/2026-10-24.md`），便于手机端直接写；更早的日志平铺在 `journal/YYYY-MM-DD.md`。`work/` 按文档类型分 `bylaw/`、`handbook/` 子目录。档案、路线图与洞察已迁出本仓，`profile/`、`roadmap/`、`insight/` 不再在此保留。
 
 ## 数据流
 
-日志是唯一入口。日志新增或修改后，四条蒸馏按各自 Skill 自动执行，无需人工指示：
+日志是唯一入口。日志新增或修改后，三条蒸馏按各自 Skill 自动执行，无需人工指示：
 
 ```text
 <集>/journal/（日志）→ journal-to-roadmap   → data/roadmap/<集>/（主题路线图）
                     → journal-to-insight   → <集>/insight/（认知洞察）
                     → journal-to-intention → <集>/intention/（意图对齐）
-
-<集>/journal/（日志）→ journal-to-profile  → data/profile/（档案，已迁出本仓）
 ```
 
-四条通道的取舍一致：只收跨时间稳定的内容。档案收个人特征，路线图收方向与先后顺序，洞察收能被后来的事推翻的机制与规律，意图收人机协作现场的澄清。感受、单次事件与业务状态只留在日志里。
+三条通道的取舍一致：只收跨时间稳定的内容。路线图收方向与先后顺序，洞察收能被后来的事推翻的机制与规律，意图收人机协作现场的澄清。感受、单次事件与业务状态只留在日志里。
 
 ## 相关文档
 

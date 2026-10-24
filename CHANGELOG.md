@@ -1,5 +1,11 @@
 # Changelog
 
+## [Unreleased]
+
+### Changed
+
+- `AGENTS.md`、`README.md`：移除 `journal-to-profile` 的触发规则与索引；该 Skill 已从主仓删除，蒸馏通道由四条改为三条
+
 ## [1.5.1] - 2026-10-24
 
 ### Changed
