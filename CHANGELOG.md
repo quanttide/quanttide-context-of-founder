@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.5.1] - 2026-10-24
+
+### Changed
+
+- `work/bylaw/founder-charter.md`、`work/handbook/roadmap-maintenance-handbook.md`、`work/handbook/mobile-workflow-handbook.md`：三篇草稿由中文 UUID 文件名改为英文名，并补 YAML 前置元数据 `author: agent`、`status: draft`
+
+### Removed
+
+- `work/tutorial/`：AI 原生创意工作、创意工作入门两篇迁出至教程仓 `create/`，来源侧不留副本
+- `work/roadmap/`：文档审计技术路线图迁入 `qtfounder` CLI 开发指南，来源侧不留副本
+- `work/insight/`：人机协作的两笔账草稿已成文于论文仓 `meta/human-ai-collaboration.md`，来源侧不留副本
+
 ## [1.5.0] - 2026-10-24
 
 ### Added
