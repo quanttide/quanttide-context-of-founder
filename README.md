@@ -64,5 +64,6 @@ data/context/
 
 | 文档 | 用途 |
 |------|------|
-| [AGENTS.md](AGENTS.md) | 工作原则、Skill 索引、触发规则 |
+| [AGENTS.md](AGENTS.md) | 记忆集、分层边界、触发规则 |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | 工作原则、输出规范、提交规范、Skill 维护 |
 | [CHANGELOG.md](CHANGELOG.md) | 版本变更记录 |
