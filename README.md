@@ -16,12 +16,6 @@ data/context/
 │   ├── intention/      # 人机协作意图（对齐层：AI 提问的澄清、摩擦处的澄清）
 │   ├── report/        # 报告（专题输出与实现状态沉淀，如 vibe-coding-methods）
 │   └── roadmap/        # 已迁出：方向层在 data/roadmap/（quanttide-roadmap-of-founder）
-├── write/              # 写作主线记忆集（最早为 assets/fiction/创作谈/）
-│   ├── journal/        # 创作日志
-│   ├── profile/        # 已迁出：创作档案在 data/profile/write/（quanttide-profile-of-founder）
-│   ├── insight/        # 创作认知洞察
-│   ├── roadmap/        # 已迁出：作品路线图在 data/roadmap/write/
-│   └── README.md
 ├── .agents/skills/     # Agent Skill
 ├── AGENTS.md           # Agent 工作指南
 └── CHANGELOG.md        # 变更日志
