@@ -20,6 +20,7 @@
 
 ### Removed
 
+- `.agents/skills/journal-to-{profile,roadmap,insight,intention}/`：四个蒸馏 Skill 迁出至主仓 `quanttide-founder` 的 `.agents/skills/`，本仓不再存放 Skill 文件；AGENTS.md 触发规则与 Skill 索引改为指向主仓，README 目录标注同步
 - `write/`：写作主线记忆集清空后删除（日志已入 `quanttide-journal-of-founder` 的 `write/`，其余内容已迁 profile / roadmap / handbook / history）；README 与 AGENTS.md 记忆集列表同步
 - `work/specification/`：删除任务蓝图、产物、产物契约三篇草案；相关讨论已成文于论文仓 `quanttide-essay-of-founder` 的 `work/`
 - `work/gallery/implement.md`：整理为手册仓的 `work/background-implementation-delegation.md`，来源侧不留副本，`work/gallery/` 目录一并去掉

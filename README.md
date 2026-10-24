@@ -16,7 +16,7 @@ data/context/
 │   ├── intention/      # 人机协作意图（对齐层：AI 提问的澄清、摩擦处的澄清）
 │   ├── report/        # 报告（专题输出与实现状态沉淀，如 vibe-coding-methods）
 │   └── roadmap/        # 已迁出：方向层在 data/roadmap/（quanttide-roadmap-of-founder）
-├── .agents/skills/     # Agent Skill
+├── .agents/skills/     # Skill 索引（文件在主仓 .agents/skills/）
 ├── AGENTS.md           # Agent 工作指南
 └── CHANGELOG.md        # 变更日志
 ```

@@ -52,19 +52,19 @@
 
 ### 触发规则
 
-- **日志更新后蒸馏档案**：`<集>/journal/` 中新增或修改日志后，读取 `.agents/skills/journal-to-profile/SKILL.md` 并按其流程更新 `data/profile/` 的对应分区（允许跨集重组），无需用户再次指示。
-- **日志更新后更新路线图**：同一时机，读取 `.agents/skills/journal-to-roadmap/SKILL.md` 并按其流程更新同一集 `<集>/roadmap/` 下的主题路线图，无需用户再次指示。
-- **日志更新后提炼洞察**：同一时机，读取 `.agents/skills/journal-to-insight/SKILL.md` 并按其流程更新同一集 `<集>/insight/` 下的认知洞察，无需用户再次指示。
-- **日志更新后补充意图对齐**：同一时机，读取 `.agents/skills/journal-to-intention/SKILL.md` 并按其流程更新同一集 `<集>/intention/` 下的意图记录（当前仅 `default/` 设该目录），无需用户再次指示。
+- **日志更新后蒸馏档案**：`<集>/journal/` 中新增或修改日志后，读取主仓 `quanttide-founder` 的 `.agents/skills/journal-to-profile/SKILL.md` 并按其流程更新 `data/profile/` 的对应分区（允许跨集重组），无需用户再次指示。
+- **日志更新后更新路线图**：同一时机，读取主仓 `.agents/skills/journal-to-roadmap/SKILL.md` 并按其流程更新同一集 `<集>/roadmap/` 下的主题路线图，无需用户再次指示。
+- **日志更新后提炼洞察**：同一时机，读取主仓 `.agents/skills/journal-to-insight/SKILL.md` 并按其流程更新同一集 `<集>/insight/` 下的认知洞察，无需用户再次指示。
+- **日志更新后补充意图对齐**：同一时机，读取主仓 `.agents/skills/journal-to-intention/SKILL.md` 并按其流程更新同一集 `<集>/intention/` 下的意图记录（当前仅 `default/` 设该目录），无需用户再次指示。
 
 ### Skill 索引
 
 | Skill | 用途 | 路径 |
 |-------|------|------|
-| `journal-to-profile` | 从日志蒸馏个人档案 | `.agents/skills/journal-to-profile/SKILL.md` |
-| `journal-to-roadmap` | 从日志蒸馏方向层路线图 | `.agents/skills/journal-to-roadmap/SKILL.md` |
-| `journal-to-insight` | 从日志提炼认知洞察 | `.agents/skills/journal-to-insight/SKILL.md` |
-| `journal-to-intention` | 从日志提取人机协作意图 | `.agents/skills/journal-to-intention/SKILL.md` |
+| `journal-to-profile` | 从日志蒸馏个人档案 | 主仓 `.agents/skills/journal-to-profile/SKILL.md` |
+| `journal-to-roadmap` | 从日志蒸馏方向层路线图 | 主仓 `.agents/skills/journal-to-roadmap/SKILL.md` |
+| `journal-to-insight` | 从日志提炼认知洞察 | 主仓 `.agents/skills/journal-to-insight/SKILL.md` |
+| `journal-to-intention` | 从日志提取人机协作意图 | 主仓 `.agents/skills/journal-to-intention/SKILL.md` |
 
 ## 工作原则
 
@@ -104,41 +104,4 @@
 
 ## Skill 维护
 
-| 类型 | 写在哪里 |
-|------|---------|
-| 详细说明、工作流步骤 | `.agents/skills/` 中的 Skill 文件 |
-| 给链接、导航索引 | AGENTS.md |
-
-### 新建 Skill
-
-```bash
-mkdir -p .agents/skills/<name>
-# 创建 .agents/skills/<name>/SKILL.md
-```
-
-SKILL.md 模板：
-
-```markdown
----
-name: <name>
-description: 功能描述。
----
-
-# <name>
-
-## 规则
-
-- 必须遵守的约束
-
-## 工作流
-
-### 步骤名称
-
-操作步骤
-```
-
-`name` 必须与目录名一致。新建后在本文件的 Skill 索引中登记；若有自动触发场景，同步在工作流的触发规则中挂载。
-
-### 修改 / 删除 Skill
-
-直接编辑 `.agents/skills/<name>/SKILL.md`；删除用 `rm -rf .agents/skills/<name>`，同时清理本文件里的索引与触发规则那一行。
+Skill 文件统一在主仓 `quanttide-founder` 的 `.agents/skills/` 维护，本仓不自建；新增或修改后，只需同步本文件的「Skill 索引」与「触发规则」。
