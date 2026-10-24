@@ -1,6 +1,8 @@
 ---
-author_type: agent
 status: draft
+authors:
+  - name: 未记录
+    type: agent
 ---
 
 # 创始人章程
