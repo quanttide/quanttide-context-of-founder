@@ -54,15 +54,13 @@
 
 ### 触发规则
 
-日志更新后，三条蒸馏同时跑，不必等用户再指示。依次读 `journal-to-roadmap`、`journal-to-insight`、`journal-to-intention`，分别更新同集的 `roadmap/`、`insight/`、`intention/`（意图层目前只有 `default/` 启用）。
+日志更新后，分诊一次跑完，不必等用户再指示。读主仓的 `meta-category`，同一遍日志分别更新同集的 `insight/`、`intention/` 与 `data/roadmap/<集>/`（意图层目前只有 `default/` 启用）。
 
 ### Skill 索引
 
 | Skill | 用途 | 路径 |
 |-------|------|------|
-| `journal-to-roadmap` | 从日志蒸馏方向层路线图 | 主仓 `.agents/skills/journal-to-roadmap/SKILL.md` |
-| `journal-to-insight` | 从日志提炼认知洞察 | 主仓 `.agents/skills/journal-to-insight/SKILL.md` |
-| `journal-to-intention` | 从日志提取人机协作意图 | 主仓 `.agents/skills/journal-to-intention/SKILL.md` |
+| `meta-category` | 判类、从日志分诊到各层、按类形状写入 | 主仓 `.agents/skills/meta-category/SKILL.md` |
 
 ## 相关文档
 

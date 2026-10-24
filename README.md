@@ -17,12 +17,12 @@ data/context/
 
 ## 数据流
 
-日志是唯一入口。日志新增或修改后，三条蒸馏按各自 Skill 自动执行，无需人工指示：
+日志是唯一入口。日志新增或修改后，一次分诊按 `meta-category` 自动执行，无需人工指示：
 
 ```text
-<集>/journal/（日志）→ journal-to-roadmap   → data/roadmap/<集>/（主题路线图）
-                    → journal-to-insight   → <集>/insight/（认知洞察）
-                    → journal-to-intention → <集>/intention/（意图对齐）
+<集>/journal/（日志）→ meta-category ─┬→ data/roadmap/<集>/（主题路线图）
+                                     ├→ <集>/insight/（认知洞察）
+                                     └→ <集>/intention/（意图对齐）
 ```
 
 三条通道的取舍一致：只收跨时间稳定的内容。路线图收方向与先后顺序，洞察收能被后来的事推翻的机制与规律，意图收人机协作现场的澄清。感受、单次事件与业务状态只留在日志里。
