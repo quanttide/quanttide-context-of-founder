@@ -32,4 +32,4 @@ data/context/
 - [AGENTS.md](AGENTS.md)：记忆集划分、分层边界与蒸馏触发规则
 - [CONTRIBUTING.md](CONTRIBUTING.md)：记日志、蒸馏、迁出与提交的日常约定
 - [CHANGELOG.md](CHANGELOG.md)：版本变更记录
-- [default/README.md](default/README.md)：`default/` 集的日志迁出判定与迁移方式
+- [default/README.md](default/README.md)：`default/` 集的日志迁出判断与迁移方式

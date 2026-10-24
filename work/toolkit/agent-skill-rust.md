@@ -44,7 +44,7 @@ pub struct EmbeddedSkill {
     /// 附属文件：(相对路径, 文本内容)
     pub auxiliary: &‘static [(&’static str, &‘static str)],
 }
-/// 新增 skill 只需在此登记一个条目
+/// 新增 skill 只需在此登记一条
 pub const EMBEDDED: &[EmbeddedSkill] = &[
     EmbeddedSkill {
         id: ”deploy-staging“,

@@ -1,6 +1,8 @@
 ---
-author: agent
 status: draft
+authors:
+  - name: 未记录
+    type: agent
 ---
 
 # 手机工作流手册
