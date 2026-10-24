@@ -54,13 +54,12 @@
 
 ### 触发规则
 
-日志更新后，四条蒸馏同时跑，不必等用户再指示。先读主仓 `quanttide-founder` 的 `.agents/skills/journal-to-profile/SKILL.md`，把日志蒸到 `data/profile/` 的对应分区，允许跨集重组；同一时机依次读 `journal-to-roadmap`、`journal-to-insight`、`journal-to-intention`，分别更新同集的 `roadmap/`、`insight/`、`intention/`（意图层目前只有 `default/` 启用）。
+日志更新后，三条蒸馏同时跑，不必等用户再指示。依次读 `journal-to-roadmap`、`journal-to-insight`、`journal-to-intention`，分别更新同集的 `roadmap/`、`insight/`、`intention/`（意图层目前只有 `default/` 启用）。
 
 ### Skill 索引
 
 | Skill | 用途 | 路径 |
 |-------|------|------|
-| `journal-to-profile` | 从日志蒸馏个人档案 | 主仓 `.agents/skills/journal-to-profile/SKILL.md` |
 | `journal-to-roadmap` | 从日志蒸馏方向层路线图 | 主仓 `.agents/skills/journal-to-roadmap/SKILL.md` |
 | `journal-to-insight` | 从日志提炼认知洞察 | 主仓 `.agents/skills/journal-to-insight/SKILL.md` |
 | `journal-to-intention` | 从日志提取人机协作意图 | 主仓 `.agents/skills/journal-to-intention/SKILL.md` |
