@@ -1,3 +1,8 @@
+---
+author: agent
+status: draft
+---
+
 # 手机工作流手册
 
 ## 工具
