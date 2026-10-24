@@ -8,6 +8,7 @@
 
 ### Changed
 
+- **README.md 与 CONTRIBUTING.md 重写**：README 只讲定位、目录与数据流，补上 `life/` 与 `work/` 的集内结构；CONTRIBUTING 按记日志、蒸馏、迁出、提交、输出、文档维护六节重组，移除与本仓无关的内容与重复表格
 - **AGENTS.md 与 CONTRIBUTING.md 分离**：工作原则、输出规范、Git 提交规范、Skill 维护迁入新建的 `CONTRIBUTING.md`；AGENTS.md 只留记忆集、分层边界、触发规则与 Skill 索引，并新增「相关文档」「如何维护 AGENTS.md」；README 相关文档表同步
 - `media/profile/肆季味.md`：迁出至 `quanttide-library-of-founder` 的 `media/`
 - `think/journal/`：2 篇日志（2026-10-17 ~ 2026-10-18）迁出至 `quanttide-journal-of-founder` 的 `think/<YYYY-MM>/`

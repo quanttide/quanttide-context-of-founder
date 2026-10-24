@@ -1,29 +1,23 @@
 # 量潮创始人工作记忆
 
-创始人整合自我与自由创造的记忆空间。
+创始人整合自我与自由创造的记忆空间。本仓是工作集：原始日志按主题域分集存放，蒸馏出的档案与方向层已迁到独立仓库，由主仓 `quanttide-founder` 挂载为 `data/context`。
 
 ## 目录
 
-记忆按主题域分为多个记忆集；时间线、洞察与方向在各集内闭环，档案层统一在 `data/profile/` 并按用途分区：
+记忆按主题域分为 `default/`（创业与个人主线）、`life/`（生活）和 `work/`（工作主线）三个集：
 
 ```text
 data/context/
-├── default/            # 创业与个人主线记忆集
-│   ├── 2026-09-27.md   # 当天日志，放集根便于手机端直接写
-│   ├── journal/        # 历史日志（按日期平铺）
-│   ├── profile/        # 已迁出：档案在 data/profile/（think / work / write）
-│   ├── insight/        # 认知洞察（机制与规律，按实测分已确认/假说）
-│   ├── intention/      # 人机协作意图（对齐层：AI 提问的澄清、摩擦处的澄清）
-│   ├── report/        # 报告（专题输出与实现状态沉淀，如 vibe-coding-methods）
-│   └── roadmap/        # 已迁出：方向层在 data/roadmap/（quanttide-roadmap-of-founder）
-├── .agents/skills/     # Skill 索引（文件在主仓 .agents/skills/）
-├── AGENTS.md           # Agent 工作指南
-└── CHANGELOG.md        # 变更日志
+├── default/   # 创业与个人主线
+├── life/      # 生活
+└── work/      # 工作主线
 ```
+
+每个集都有 `README.md` 与 `journal/`。当天的日志写在集根（如 `default/2026-10-24.md`），便于手机端直接写；更早的日志平铺在 `journal/YYYY-MM-DD.md`。`default/` 另有 `insight/` 与 `intention/` 两个蒸馏层，`work/` 按文档类型分 `bylaw/`、`handbook/`、`insight/`、`roadmap/`、`tutorial/` 子目录。档案与方向层已迁出本仓，`profile/`、`roadmap/` 不再在此保留。
 
 ## 数据流
 
-路线图、洞察与意图在同一记忆集内闭环；档案层允许跨集重组：
+日志是唯一入口。日志新增或修改后，四条蒸馏按各自 Skill 自动执行，无需人工指示：
 
 ```text
 <集>/journal/（日志）→ journal-to-roadmap   → data/roadmap/<集>/（主题路线图）
@@ -33,37 +27,11 @@ data/context/
 <集>/journal/（日志）→ journal-to-profile  → data/profile/（档案，已迁出本仓）
 ```
 
-档案按用途分区，不再与记忆集一一对应：
-
-| 分区 | 收什么 | 来源 |
-|------|--------|------|
-| `think/` | 认知档案：怎么想、怎么应对 | 各集日志蒸馏后按事情重组 |
-| `work/` | 事项台账：事实、决定与下一步 | 各集日志中的在办事项 |
-| `write/` | 创作认知地图与创作档案 | `write/` 日志 |
-
-同一集日志可同时贡献多个分区；`think/` 允许跨集重组，不要求与记忆集同名。
-
-日志新增或修改后，四条蒸馏按各自 skill 自动执行，无需人工指示：
-
-- 档案只收跨时间稳定的个人特征；决策、单次事件不进档案。
-- 路线图只收方向层内容，按实测分已确认/待定，以最新状态为准：一段散文写当前与先后顺序，之后按交付物分节。
-- 洞察只收能被后来的事推翻、推翻后要改做法的话（机制、规律、临界点），按实测分已确认/假说；感受、选择、事件不进洞察。
-- 意图只收人机协作现场的澄清（AI 提问时的回答、交互摩擦处的「要 X，不要 Y」），按主题分文件与 insight/roadmap 对齐，沉淀为稳定判断归档案、成形为决策归路线图；目前仅 `default/` 启用。
-
-## 文档边界
-
-| 层级 | 目录 | 内容 |
-|------|------|------|
-| 时间线 | `<集>/`（当天）、`<集>/journal/`（历史） | 原始日志，按日期记录 |
-| 特征 | `data/profile/`（已迁出本仓） | 蒸馏后的档案，按用途分 `think/`、`work/`、`write/` |
-| 认知 | `<集>/insight/` | 想通的机制与规律，按实测分已确认/假说 |
-| 方向 | `data/roadmap/<集>/`（已迁出本仓） | 当前与先后顺序，之后按交付物分节 |
-| 对齐 | `<集>/intention/` | 人机协作的意图对齐信息（目前仅 `default/`） |
+四条通道的取舍一致：只收跨时间稳定的内容。档案收个人特征，路线图收方向与先后顺序，洞察收能被后来的事推翻的机制与规律，意图收人机协作现场的澄清。感受、单次事件与业务状态只留在日志里。
 
 ## 相关文档
 
-| 文档 | 用途 |
-|------|------|
-| [AGENTS.md](AGENTS.md) | 记忆集、分层边界、触发规则 |
-| [CONTRIBUTING.md](CONTRIBUTING.md) | 工作原则、输出规范、提交规范、Skill 维护 |
-| [CHANGELOG.md](CHANGELOG.md) | 版本变更记录 |
+- [AGENTS.md](AGENTS.md)：记忆集划分、分层边界与蒸馏触发规则
+- [CONTRIBUTING.md](CONTRIBUTING.md)：记日志、蒸馏、迁出与提交的日常约定
+- [CHANGELOG.md](CHANGELOG.md)：版本变更记录
+- [default/README.md](default/README.md)：`default/` 集的日志迁出判定与迁移方式
