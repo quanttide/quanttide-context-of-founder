@@ -4,6 +4,7 @@
 
 ### Changed
 
+- `AGENTS.md`、`CONTRIBUTING.md`：分诊入口 Skill 的路径改为随 `qtfounder` 发布、装在 `~/.agents/skills/`
 - `AGENTS.md`、`README.md`、`CONTRIBUTING.md`：分诊入口 Skill 改名 `meta-classify`，与主仓合并后的 `meta-domain`／`meta-category` 对齐
 - `AGENTS.md`、`README.md`、`CONTRIBUTING.md`：三条蒸馏合并为一次分诊，统一走主仓的 `meta-category`；三个 `journal-to-*` Skill 已并入该 Skill，本仓只留一处入口
 - `AGENTS.md`、`README.md`：移除 `journal-to-profile` 的触发规则与索引；该 Skill 已从主仓删除，蒸馏通道由四条改为三条

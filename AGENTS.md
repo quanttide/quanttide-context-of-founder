@@ -60,7 +60,7 @@
 
 | Skill | 用途 | 路径 |
 |-------|------|------|
-| `meta-classify` | 判类、跨域、从日志分诊到各层、按类形状写入 | 主仓 `.agents/skills/meta-classify/SKILL.md` |
+| `meta-classify` | 判类、跨域、从日志分诊到各层、按类形状写入 | 随主仓的 `qtfounder` CLI 发布，装在 `~/.agents/skills/meta-classify/` |
 
 ## 相关文档
 
