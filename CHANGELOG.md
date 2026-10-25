@@ -13,6 +13,7 @@
 
 ### Removed
 
+- `game/intention/index.md`：玩法设想按资产归位，意图迁入 `quanttide-intention-of-founder` 的 `qtgame-war/`，对外说法迁入 `quanttide-brochure-of-founder` 的 `qtgame-war/`，来源侧不留副本
 - `game/insight/`：目录清空，本仓不留空目录
 - `default/insight/agent-harness.md`：对话底稿已成文于论文仓 `agent/agent-harness.md`，来源侧不留副本；`default/` 只留 `journal/`
 
