@@ -8,9 +8,12 @@
 - `AGENTS.md`、`README.md`、`CONTRIBUTING.md`：分诊入口 Skill 改名 `meta-classify`，与主仓合并后的 `meta-domain`／`meta-category` 对齐
 - `AGENTS.md`、`README.md`、`CONTRIBUTING.md`：三条蒸馏合并为一次分诊，统一走主仓的 `meta-category`；三个 `journal-to-*` Skill 已并入该 Skill，本仓只留一处入口
 - `AGENTS.md`、`README.md`：移除 `journal-to-profile` 的触发规则与索引；该 Skill 已从主仓删除，蒸馏通道由四条改为三条
+- `game/roadmap/迷雾中的司令部_开发路线图_v1.0_74636219-90F9-4902-97C4-34BC1DF8FA4F.md` → `game/roadmap/迷雾中的司令部_开发路线图.md`：去掉导出文件名中的任务 ID
+- `game/insight/index.md` → `game/roadmap/架构设计说明书_v1.1_评审.md`：正文是对架构设计说明书 v1.1 的逐条评审，不是跨时间的机制洞察；补标题、评审对象与日期
 
 ### Removed
 
+- `game/insight/`：目录清空，本仓不留空目录
 - `default/insight/agent-harness.md`：对话底稿已成文于论文仓 `agent/agent-harness.md`，来源侧不留副本；`default/` 只留 `journal/`
 
 ## [1.5.1] - 2026-10-24
