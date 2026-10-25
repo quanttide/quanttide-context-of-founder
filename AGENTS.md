@@ -54,13 +54,13 @@
 
 ### 触发规则
 
-日志更新后，分诊一次跑完，不必等用户再指示。读主仓的 `meta-category`，同一遍日志分别更新同集的 `insight/`、`intention/` 与 `data/roadmap/<集>/`（意图层目前只有 `default/` 启用）。
+日志更新后，分诊一次跑完，不必等用户再指示。读主仓的 `meta-classify`，同一遍日志分别更新同集的 `insight/`、`intention/` 与 `data/roadmap/<集>/`（意图层目前只有 `default/` 启用）。
 
 ### Skill 索引
 
 | Skill | 用途 | 路径 |
 |-------|------|------|
-| `meta-category` | 判类、从日志分诊到各层、按类形状写入 | 主仓 `.agents/skills/meta-category/SKILL.md` |
+| `meta-classify` | 判类、跨域、从日志分诊到各层、按类形状写入 | 主仓 `.agents/skills/meta-classify/SKILL.md` |
 
 ## 相关文档
 
