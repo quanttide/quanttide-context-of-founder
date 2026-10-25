@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Added
+
+- `game/roadmap/index.md`：数值参数的具体落地——按参数组列出单位、初值、写入位置与启用阶段，待取值回填
+
 ### Changed
 
 - `AGENTS.md`、`CONTRIBUTING.md`：分诊入口 Skill 的路径改为随 `qtfounder` 发布、装在 `~/.agents/skills/`
