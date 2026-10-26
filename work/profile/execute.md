@@ -6,4 +6,4 @@
 
 store，store management 门店管理
 retail，retail management 零售管理
-
+war，war gaming 兵棋推演
