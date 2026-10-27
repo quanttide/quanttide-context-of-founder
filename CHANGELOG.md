@@ -20,6 +20,7 @@
 
 ### Removed
 
+- `game/insight/指挥官决心.md`、`game/intention/index.md`：迁入游戏仓 `assets/qtgame-war/docs/dev-guide/`（`yudong-sample.md`、`params.md`），正文未改
 - `work/bylaw/founder-charter.md`：迁入章程仓 `docs/bylaw/intro/founder-charter.md`，正文未改，来源侧不留副本
 - `work/handbook/mobile-workflow-handbook.md`、`work/handbook/roadmap-maintenance-handbook.md`：迁入手册仓 `docs/handbook/work/`（`mobile-workflow.md`、`roadmap-maintenance.md`），正文未改
 - `work/library/AI 防御性对话.md`、`work/report/识别防御性表达的风格.md`：迁入素材库 `data/library/agent/`（`defensive-dialogue-sources.md`、`defensive-style-detection.md`），正文未改
