@@ -17,6 +17,7 @@
 
 ### Removed
 
+- `default/insight/`：创始人角色、开源公司与复制组织、消除摩擦的平台三篇对话底稿提炼进洞察仓 `org/`，来源侧不留副本；`default/` 只留 `journal/` 与 `profile/`
 - `game/roadmap/`：七篇路线图草稿按主题迁入路线图仓 `qtgame-war/code/`——系统契约、指挥部、验收系统、数值参数、架构检查各立一篇，开发顺序与全局前提并入 `index.md`，来源侧不留副本
 - `game/intention/index.md`：玩法设想按资产归位，意图迁入 `quanttide-intention-of-founder` 的 `qtgame-war/`，对外说法迁入 `quanttide-brochure-of-founder` 的 `qtgame-war/`，来源侧不留副本
 - `game/insight/`：目录清空，本仓不留空目录
