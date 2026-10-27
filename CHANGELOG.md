@@ -20,6 +20,7 @@
 
 ### Removed
 
+- `life/insight/pressure-and-decision.md`、`life/insight/work-life-balance.md`：提炼进洞察仓 `data/insight/life/`，按成篇体例改写，来源侧不留副本
 - `game/insight/指挥官决心.md`、`game/intention/index.md`：迁入游戏仓 `assets/qtgame-war/docs/dev-guide/`（`yudong-sample.md`、`params.md`），正文未改
 - `work/bylaw/founder-charter.md`：迁入章程仓 `docs/bylaw/intro/founder-charter.md`，正文未改，来源侧不留副本
 - `work/handbook/mobile-workflow-handbook.md`、`work/handbook/roadmap-maintenance-handbook.md`：迁入手册仓 `docs/handbook/work/`（`mobile-workflow.md`、`roadmap-maintenance.md`），正文未改
