@@ -4,10 +4,13 @@
 
 ### Added
 
+- `product/README.md`：集内结构与 code / product 的边界
+- `product/intention/`：商务报价工具、人机协作的摩擦与意图校验两篇意图草稿，从 2026-10-27 工作日志提炼
 - `game/roadmap/index.md`：数值参数的具体落地——按参数组列出单位、初值、写入位置与启用阶段，待取值回填
 
 ### Changed
 
+- `product/TODO.md`：code / product 边界事项已定，标注指向 `README.md`
 - `AGENTS.md`、`CONTRIBUTING.md`：分诊入口 Skill 的路径改为随 `qtfounder` 发布、装在 `~/.agents/skills/`
 - `AGENTS.md`、`README.md`、`CONTRIBUTING.md`：分诊入口 Skill 改名 `meta-classify`，与主仓合并后的 `meta-domain`／`meta-category` 对齐
 - `AGENTS.md`、`README.md`、`CONTRIBUTING.md`：三条蒸馏合并为一次分诊，统一走主仓的 `meta-category`；三个 `journal-to-*` Skill 已并入该 Skill，本仓只留一处入口
