@@ -20,6 +20,7 @@
 
 ### Removed
 
+- `life/`、`work/`、`product/`：三个集清空后删除；`product/README.md` 的 code / product 边界规则并入 `data/profile/product/index.md`
 - `fiction/journal/2026-10-27.md`、`life/journal/2026-10-27.md`、`work/journal/2026-10-27.md`：迁入日志仓 `data/journal/`（fiction 落 `write/`），正文未改
 - `work/TODO.md`、`fiction/TODO.md`、`product/TODO.md`：任务项全部并入档案仓 `data/profile/execute/index.md`，来源侧不留副本
 - `work/handbook/code-plan.md`：迁入手册仓 `docs/handbook/code/plan.md`，正文未改
