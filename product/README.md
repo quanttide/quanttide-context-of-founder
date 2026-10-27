@@ -1,11 +1,17 @@
 # 产品
 
-产品线的意图与未决事项。日志归 `data/journal/product/`，本集只留定义、意图与待办。
+产品线的意图与未决事项。日志归 `data/journal/product/`，意图在意图仓 `data/intention/`，本集只留边界与待办。
 
 ## 目录
 
-- `intention/`：产品意图草稿，成熟后迁往意图仓 `data/intention/`。
 - `TODO.md`：本集未决事项。
+
+## 意图
+
+两篇意图已迁入意图仓 `data/intention/`：
+
+- `qtcloud-business/`：商务报价工具。
+- `qtcloud-agent/`：人机协作的摩擦与意图校验。
 
 ## code 与 product 的边界
 

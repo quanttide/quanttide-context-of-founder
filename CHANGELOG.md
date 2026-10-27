@@ -10,7 +10,7 @@
 
 ### Changed
 
-- `product/TODO.md`：code / product 边界事项已定，标注指向 `README.md`
+- `product/README.md`、`product/TODO.md`：意图草稿迁出后同步目录与去处，code / product 边界指向 `README.md`
 - `AGENTS.md`、`CONTRIBUTING.md`：分诊入口 Skill 的路径改为随 `qtfounder` 发布、装在 `~/.agents/skills/`
 - `AGENTS.md`、`README.md`、`CONTRIBUTING.md`：分诊入口 Skill 改名 `meta-classify`，与主仓合并后的 `meta-domain`／`meta-category` 对齐
 - `AGENTS.md`、`README.md`、`CONTRIBUTING.md`：三条蒸馏合并为一次分诊，统一走主仓的 `meta-category`；三个 `journal-to-*` Skill 已并入该 Skill，本仓只留一处入口
@@ -20,6 +20,7 @@
 
 ### Removed
 
+- `product/intention/`：商务报价工具、人机协作的摩擦与意图校验两篇草稿迁入意图仓 `data/intention/` 的 `qtcloud-business/`、`qtcloud-agent/`，按意图仓体例改写，来源侧不留副本
 - `default/insight/`：创始人角色、开源公司与复制组织、消除摩擦的平台三篇对话底稿提炼进洞察仓 `org/`，来源侧不留副本；`default/` 只留 `journal/` 与 `profile/`
 - `game/roadmap/`：七篇路线图草稿按主题迁入路线图仓 `qtgame-war/code/`——系统契约、指挥部、验收系统、数值参数、架构检查各立一篇，开发顺序与全局前提并入 `index.md`，来源侧不留副本
 - `game/intention/index.md`：玩法设想按资产归位，意图迁入 `quanttide-intention-of-founder` 的 `qtgame-war/`，对外说法迁入 `quanttide-brochure-of-founder` 的 `qtgame-war/`，来源侧不留副本
