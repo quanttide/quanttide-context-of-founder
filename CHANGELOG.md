@@ -20,6 +20,11 @@
 
 ### Removed
 
+- `work/bylaw/founder-charter.md`：迁入章程仓 `docs/bylaw/intro/founder-charter.md`，正文未改，来源侧不留副本
+- `work/handbook/mobile-workflow-handbook.md`、`work/handbook/roadmap-maintenance-handbook.md`：迁入手册仓 `docs/handbook/work/`（`mobile-workflow.md`、`roadmap-maintenance.md`），正文未改
+- `work/library/AI 防御性对话.md`、`work/report/识别防御性表达的风格.md`：迁入素材库 `data/library/agent/`（`defensive-dialogue-sources.md`、`defensive-style-detection.md`），正文未改
+- `life/essay/pressure.md`：迁入论文仓 `docs/essay/life/pressure.md`，正文未改
+- `game/library/wargaming.md`、`game/insight/兵棋推演豫东战役.md`：迁入教程仓 `docs/tutorial/game/`（`wargaming-intro.md`、`yudong-campaign.md`），正文未改
 - `product/intention/`：商务报价工具、人机协作的摩擦与意图校验两篇草稿迁入意图仓 `data/intention/` 的 `qtcloud-business/`、`qtcloud-agent/`，按意图仓体例改写，来源侧不留副本
 - `default/insight/`：创始人角色、开源公司与复制组织、消除摩擦的平台三篇对话底稿提炼进洞察仓 `org/`，来源侧不留副本；`default/` 只留 `journal/` 与 `profile/`
 - `game/roadmap/`：七篇路线图草稿按主题迁入路线图仓 `qtgame-war/code/`——系统契约、指挥部、验收系统、数值参数、架构检查各立一篇，开发顺序与全局前提并入 `index.md`，来源侧不留副本
