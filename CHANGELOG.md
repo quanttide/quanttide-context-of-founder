@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [1.5.2] - 2026-10-27
+
 ### Added
 
 - `product/README.md`：集内结构与 code / product 的边界
