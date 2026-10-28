@@ -4,6 +4,7 @@
 
 ### Removed
 
+- `default/insight/design.md`：迁入论文仓 `docs/essay/design/design-os.md` 并整理成初稿
 - `default/brochure/qtclass-course.md`：迁入宣传册仓 `qtclass/course.md`（quanttide-brochure-of-founder）并按对外宣传体例改写
 
 ## [1.5.2] - 2026-10-27
