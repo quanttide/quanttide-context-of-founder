@@ -4,6 +4,7 @@
 
 ### Removed
 
+- `default/intention/qtgame-war.md`：并入意图仓 `qtgame-war/index.md` 的「要什么」节——指挥官的爽感与难度定位
 - `default/insight/design.md`：迁入论文仓 `docs/essay/design/design-os.md` 并整理成初稿
 - `default/brochure/qtclass-course.md`：迁入宣传册仓 `qtclass/course.md`（quanttide-brochure-of-founder）并按对外宣传体例改写
 
