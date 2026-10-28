@@ -4,6 +4,7 @@
 
 ### Removed
 
+- `default/bylaw/media.md`：迁入法规仓 `docs/bylaw/legal/media.md` 并改为章程体，理顺主体资格、名义授权与责任下压三条线，重复段落去重
 - `default/handbook/design.md`：迁入手册仓 `docs/handbook/design/layout.md`，补上做法与边界两节
 - `default/intention/qtgame-war.md`：并入意图仓 `qtgame-war/index.md` 的「要什么」节——指挥官的爽感与难度定位
 - `default/insight/design.md`：迁入论文仓 `docs/essay/design/design-os.md` 并整理成初稿
