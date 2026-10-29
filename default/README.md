@@ -1,19 +1,16 @@
-# default 集日志迁出规则
+# default 集迁出规则
 
-创始人日志以「个人感受」为准绳提纯：段落内容命中下表去向即随做随迁，不让日志混杂多主体信息（饮食规则见日志内的显性化记录）。
+本集收拿不准去向的内容与原始日志；一旦内容明确属于某个资产仓，随做随迁，来源侧不留复制件。现行规则以 `qtfounder asset maintain` 的资产契约为准，不再单设去向表。
 
-## 迁出判断
+## 怎么迁
 
-| 段落 | 去向 | 怎么判 |
-|------|------|------|
-| 滁州公司相关：公司启用、业务与市场、品牌策略、资产组织 | `roadriver-tech` 仓库 `data/journal/YYYY-MM-DD.md` | 出现滁州公司或其业务即整段算 |
-| 工作想法与洞察：系统治理、工具链、组织结构、职业定义、对 AI 观点的解读 | `quanttide-work` 仓库 `data/context/quanttide-founder/default/journal/YYYY-MM-DD.md` | 可被他人当工作参考的判断与想法 |
+`default/<资产>/<余下>` 按 flip 交换前两段搬进资产仓，`default/insight/x.md` → `data/insight/default/x.md`，`journal`、`intention` 同理。当天日期的日志留在本集，隔天再搬。契约里没有的资产可以新建：首段当新资产名，落到同级资产仓（如 `data/create/`）。
 
-留在本集的内容：个人感受、边界体验、状态收束语、日志管理元规则本身。
+```bash
+qtfounder asset maintain --dry-run   # 预览
+qtfounder asset maintain             # 搬
+```
 
-## 迁移方式
+## 留在本集
 
-1. 只移动、不改写：段落原样搬移，保留原有分隔线；目标文件按日志段落顺序追加，已存在则不覆盖。
-2. 混合段先判主体再整段处理，不逐句切分；拿不准的留下。
-3. 用整读整写的脚本切分并做逐行守恒校验，不用行号 sed 直改。
-4. 提交：目标仓库只提交本次文件（`quanttide-work` 的 `data/context` 常有其他未提交变更）；context 侧提交日志删段，主仓库随即更新 `data/context` 指针。
+个人感受、边界体验、状态收束语、日志管理元规则本身。
