@@ -9,7 +9,7 @@ data/context/
 └── default/   # 创业与个人主线
 ```
 
-当天日志写在集根（如 `default/2026-10-24.md`），便于手机端直接写；更早的日志平铺在 `default/journal/YYYY-MM-DD.md`。
+日志一律写在 `default/journal/YYYY-MM-DD.md`，不设中间层；当天日期的文件由 `qtfounder asset maintain` 留在原地，隔天搬进 `data/journal/<域>/`。
 
 ## 数据流
 

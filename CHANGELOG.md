@@ -8,6 +8,7 @@
 
 ### Changed
 
+- 三份规则文档对齐 `qtfounder asset maintain` 契约：README/CONTRIBUTING/AGENTS 的「当天集根日志」约定改为一律写 `journal/`（集根约定会被 maintain 误当新资产）；CONTRIBUTING 迁出节与 `default/README.md` 删除指向 `roadriver-tech`、`quanttide-work` 的旧去向表，去向以契约为准
 - `qtfounder asset maintain` 迁出 6 件到长期记忆仓：3 条 insight、1 条 intention、2026-10-27/28 两篇日志；`create/2026-10-28.md` 随新建资产入 `data/create/`；当天（10-29）日志与 `agent/` 留在本仓
 - `default/insight/治理机制.md` → `random-extraction-mechanism.md`：中文文件名改英文
 

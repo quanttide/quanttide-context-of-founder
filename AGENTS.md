@@ -45,7 +45,7 @@
 - 认识三分：想通的一句归 `<集>/insight/`，套用成框架归 `data/profile/think/`，引出的选择归 `<集>/roadmap/`；同一认识只在一处展开，跨层留互链。
 - 决策（无论已/待）归 `<集>/roadmap/`；元目标是目标的子层，随目标归 `<集>/roadmap/`；跨时间稳定的个人特征归 `data/profile/`。
 - `data/profile/` 只描述特征，不给建议；建议是对话输出，不是档案内容。
-- **日志落位**：当天日志放记忆集根部（如 `default/2026-09-26.md`），便于手机直写；更早的平铺在 `<集>/journal/YYYY-MM-DD.md`，不设中间层。
+- **日志落位**：日志一律在 `<集>/journal/YYYY-MM-DD.md`，不设中间层；`qtfounder asset maintain` 把当天日期的文件留在原地，隔天搬进 `data/journal/<域>/`。
 
 ## 工作流
 
