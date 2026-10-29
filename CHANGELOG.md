@@ -2,6 +2,14 @@
 
 ## [Unreleased]
 
+### Added
+
+- `default/insight/reflection-quality.md`、`default/insight/self-reward-origin.md`：10-28、10-29 日志分诊出的两条假说级认知（反思质量决定整体质量；自我奖励是组织激励的起点），日志原文留在时间线；10-29 日志未动，继续录入
+
+### Changed
+
+- `default/insight/治理机制.md` → `random-extraction-mechanism.md`：中文文件名改英文
+
 ### Removed
 
 - `default/bylaw/media.md`：迁入法规仓 `docs/bylaw/legal/media.md` 并改为章程体，理顺主体资格、名义授权与责任下压三条线，重复段落去重
