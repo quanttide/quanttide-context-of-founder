@@ -8,6 +8,7 @@
 
 ### Changed
 
+- `AGENTS.md`：新增「规则源」节——归位规则唯一正本是 `qtfounder asset maintain` 的资产契约，本仓文档只作指针，文字与工具输出冲突时以契约为准并报告修文档；工作流插入第 2 步，动手前先跑 `asset maintain --check`
 - `qtfounder asset maintain` 迁出 6 件到长期记忆仓：`default/insight/{math,meta}.md` 入 `data/insight/`，`agent/intention/roadmap-based-collaboration.md` 入 `data/intention/`，default、agent、code 三集 2026-10-29 日志入 `data/journal/`；当天（10-30）日志留在本仓
 - `AGENTS.md`、`README.md`、`CONTRIBUTING.md`：规则源统一为 `qtfounder asset maintain` 的资产契约——删除「只保留 `default/` 一个集」「意图层仅 default 启用」等过时约束，记忆集表补上 `agent/`、`code/`，领域按需新增；删除 meta-classify 分诊工作流与 Skill 索引，工作流改为「写入 → maintain 搬运 → 提交」三步
 - 三份规则文档对齐 `qtfounder asset maintain` 契约：README/CONTRIBUTING/AGENTS 的「当天集根日志」约定改为一律写 `journal/`（集根约定会被 maintain 误当新资产）；CONTRIBUTING 迁出节与 `default/README.md` 删除指向 `roadriver-tech`、`quanttide-work` 的旧去向表，去向以契约为准

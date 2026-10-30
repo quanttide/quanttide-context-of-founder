@@ -2,6 +2,12 @@
 
 量潮创始人第二大脑的记忆仓库：日志时间线、个人档案、方向决策。
 
+## 规则源
+
+本仓归位规则的唯一正本是 `qtfounder asset maintain` 读的资产契约（`src/meta/default-contract.toml`，随 `qtfounder` CLI 发布）。本文件与 README、CONTRIBUTING 只作指引：文字与工具输出冲突时，以契约为准，并向用户报告修文档，不自行解释。
+
+动手前先跑 `qtfounder asset maintain --check`：`--root` 是起点，从当前目录逐级向上定位含 `data/context/` 的仓根，在本仓哪个子目录跑都能定位；定位不到会报错退出，报了错就是路径问题，不要把它的输出当成“没有待搬内容”。
+
 ## 记忆集
 
 记忆按领域分集，本仓按「领域 / 资产」两级组织（`<领域>/<资产>/`），领域按需新增。现行去向以 `qtfounder asset maintain` 读的资产契约为准（入口与出口加十八类长期记忆，共二十种资产），不另设去向表。档案层统一在 `data/profile/`，见「档案分区」。
@@ -52,8 +58,9 @@
 ## 工作流
 
 1. 当天的内容写进 `<领域>/<资产>/`，日志在 `<领域>/journal/YYYY-MM-DD.md`，追加不新开文件。
-2. 隔天跑 `qtfounder asset maintain`，按资产契约搬进对应长期记忆仓；`--dry-run` 预览、`--check` 只校验、缺省搬动。
-3. 搬完在源侧与目标侧各自提交，主仓随提交更新子模块指针。
+2. 动手前先跑 `qtfounder asset maintain --check` 校验布局，有报错先解决路径或归位问题。
+3. 隔天跑 `qtfounder asset maintain`，按资产契约搬进对应长期记忆仓；`--dry-run` 预览、`--check` 只校验、缺省搬动。
+4. 搬完在源侧与目标侧各自提交，主仓随提交更新子模块指针。
 
 ## 相关文档
 
