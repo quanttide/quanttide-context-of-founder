@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Removed
+
+- `default/laboratory/` 四页门店中心 HTML（index、chuzhou、Sofa、sofa-faq，10-31 18:04–18:15 产出）迁出至 `quanttide/qtstore` 的 `examples/site/`；源目录保留
+
 ### Added
 
 - `default/insight/reflection-quality.md`、`default/insight/self-reward-origin.md`：10-28、10-29 日志分诊出的两条假说级认知（反思质量决定整体质量；自我奖励是组织激励的起点），日志原文留在时间线；10-29 日志未动，继续录入
