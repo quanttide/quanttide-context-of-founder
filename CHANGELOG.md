@@ -4,6 +4,8 @@
 
 ### Removed
 
+- 21 件隔天内容经 `qtfounder asset maintain` 按资产契约迁出：default 集 essay、laboratory、insight、intention、journal 与 fiction 集 profile、insight、journal，分别进 `docs/essay`、`examples/quanttide-founder-lab`、`data/insight`、`data/intention`、`data/journal`、`data/profile`；当天日志 2026-11-06 留守
+
 - `default/laboratory/` 四页门店中心 HTML（index、chuzhou、Sofa、sofa-faq，10-31 18:04–18:15 产出）迁出至 `quanttide/qtstore` 的 `examples/site/`；源目录保留
 
 ### Added
