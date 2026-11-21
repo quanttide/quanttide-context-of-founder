@@ -2,6 +2,8 @@
 
 - `fiction/2026-11-17.md` 迁出至 quanttide-create 领域仓 `data/journal/`
 
+- `create/` 分区迁出至 quanttide-create：`journal/2026-11-20.md` 入该域 journal 仓 `default/`，`profile/`（images、videos）入该域 profile 仓 `quanttide-founder/` 租户目录
+
 ## [Unreleased]
 
 ### Removed
