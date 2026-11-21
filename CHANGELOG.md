@@ -1,5 +1,7 @@
 # Changelog
 
+- `fiction/2026-11-17.md` 迁出至 quanttide-create 领域仓 `data/journal/`
+
 ## [Unreleased]
 
 ### Removed
