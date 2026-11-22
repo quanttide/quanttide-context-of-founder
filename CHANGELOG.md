@@ -8,6 +8,7 @@
 
 ### Removed
 
+- game 集根三件处置：`asset-checklist.html` 经 `game/gallery/` 布局迁入 `docs/gallery/game/`；`qtgame-love.md`（《手写的从前》游戏企划）与 `TODO.md` 删除，企划不再推进
 - 15 件隔天内容经 `qtfounder asset maintain` 按资产契约迁出：default 集 roadmap、library、tutorial、journal（11-09 至 11-20 共 11 天）进 `data/roadmap`、`data/library`、`docs/tutorial`、`data/journal`；math 集 gallery 判为外部信息，降级进 `data/library`；当天日志 2026-11-22 留守
 - 21 件隔天内容经 `qtfounder asset maintain` 按资产契约迁出：default 集 essay、laboratory、insight、intention、journal 与 fiction 集 profile、insight、journal，分别进 `docs/essay`、`examples/quanttide-founder-lab`、`data/insight`、`data/intention`、`data/journal`、`data/profile`；当天日志 2026-11-06 留守
 
